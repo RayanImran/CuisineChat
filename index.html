@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      #chat {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-red-600 text-white p-4">
+      <h1 class="text-3xl font-bold">Delicious Restaurant</h1>
+    </nav>
+
+    <div class="container mx-auto p-6">
+      <h2 class="text-2xl font-bold mb-4">Menu</h2>
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <li class="bg-white p-4 rounded shadow">Pav Bhaji</li>
+        <li class="bg-white p-4 rounded shadow">Chole Bhature</li>
+        <li class="bg-white p-4 rounded shadow">Pizza</li>
+        <li class="bg-white p-4 rounded shadow">Mango Lassi</li>
+        <li class="bg-white p-4 rounded shadow">Masala Dosa</li>
+        <li class="bg-white p-4 rounded shadow">Biryani</li>
+        <li class="bg-white p-4 rounded shadow">Vada Pav</li>
+        <li class="bg-white p-4 rounded shadow">Rava Dosa</li>
+        <li class="bg-white p-4 rounded shadow">Samosa</li>
+      </ul>
+    </div>
+
+    <footer id="chat">
+      <iframe
+        width="350"
+        height="430"
+        allow="microphone;"
+        src="https://console.dialogflow.com/api-client/demo/embedded/df4e5b32-ae63-467f-9a6e-a1643752c29d"
+      >
+      </iframe>
+    </footer>
+  </body>
+</html>
