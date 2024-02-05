@@ -2,10 +2,6 @@
 
 CuisineChat revolutionizes restaurant order management through an AI-powered chatbot. Leveraging Natural Language Processing (NLP) and machine learning, it enhances customer service and operational efficiency. Integrated with Dialogflow and a Python backend, it offers real-time order handling and a seamless user experience.
 
-### Code Review Request for Siemens Interview
-
-As requested in your email, please review the main.py file within this repository. This file is central to the application's functionality, and I believe it showcases my coding skills and understanding of Software Development skills. I welcome any feedback or suggestions you may have.
-
 ## Features
 
 - **Dialogflow Integration**: Advanced user intent recognition for a natural chat experience.
